@@ -22,9 +22,20 @@ body {
 .games-container {
     border: 10px white solid;
     border-radius: 20px;
-    height: 80vh;
+    height: 75vh;
+    padding: 10px;
 }
 .site-header {
     font-size: 5vh;
+    margin-left: 15px;
 }
-.contacts
+.contacts {
+    height: 7.5vh;
+    align-items: center;
+    justify-content: center;
+}
+.contact-elem {
+    padding-inline: 8px;
+    margin-block: 0px;
+    font-size: 3vh;
+}

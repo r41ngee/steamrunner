@@ -49,3 +49,13 @@ body {
     height: 65%;
     margin-inline: 4px;
 }
+
+.id-fieldset {
+    width: min-content;
+    margin-block: 20px;
+    margin-top: 10px;
+}
+.link-no-deco {
+    text-decoration: none;
+    color: #a4b5ff; 
+}  

@@ -1,0 +1,28 @@
+{
+    "games": {
+        "game": [
+            {
+                "appid": 570,
+                "name": "Dota 2",
+                "playtime_2weeks": 110,
+                "img_icon_url": "no needs now",
+                "img_logo_url": "also"
+            },
+            {
+                "appid": 730,
+                "name": "Counter-Strike 2",
+                "playtime_2weeks": 64,
+                "img_icon_url": "x",
+                "img_logo_url": "x"
+            },
+            {
+                "appid": 271590,
+                "name": "Grand Theft Auto V",
+                "playtime_2weeks": 30,
+                "img_icon_url": "x",
+                "img_logo_url": "x"
+            }
+        ],
+        "game_count": 3
+    }
+}

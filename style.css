@@ -44,3 +44,8 @@ body {
     margin-block: 10px;
     font-size: 3vh;
 }
+.vertical-border {
+    border-inline: 2px solid white;
+    height: 65%;
+    margin-inline: 4px;
+}

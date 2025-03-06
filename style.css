@@ -1,3 +1,5 @@
+/* BASE SETTINGS */
+
 body {
     background: linear-gradient(169deg, rgba(2,16,77,1) 0%, rgba(0,78,159,1) 100%);
     color: whitesmoke;
@@ -10,6 +12,13 @@ body {
     src: url(fonts/AnonymousPro-Regular.ttf);
 }
 
+.link-no-deco {
+    text-decoration: none;
+    color: whitesmoke; 
+} 
+
+/* FLEX */
+
 .flex {
     display: flex;
 }
@@ -19,17 +28,61 @@ body {
 .flex-row {
     flex-direction: row;
 }
+
+/* HEADER */
+
+.site-header {
+    font-size: 5vh;
+    margin-left: 15px;
+    margin-block: 10px;
+}
+
+.id-fieldset {
+    width: min-content;
+    margin-block: 20px;
+    margin-top: 10px;
+}
+
+/* GAMES */
+
 .games-container {
     border: 10px white solid;
     border-radius: 20px;
     height: 75vh;
     padding: 10px;
 }
-.site-header {
-    font-size: 5vh;
-    margin-left: 15px;
+
+.games-count {
     margin-block: 10px;
+    font-size: 3vh;
 }
+
+.game {
+    width: 50%;
+    padding: 0.5vw;
+    height: 5vh;
+}
+
+.game > img {
+    width: 5vw;
+    height: auto;
+}
+
+.game-info{
+    margin-left: 20px;
+}
+
+.game-name{
+    font-size: 500%;
+}
+
+.game-recent-2w {
+    font-size: 200%;
+    margin-block: 0;
+}
+
+/* CONTACTS */
+
 .contacts {
     height: 7.5vh;
     align-items: center;
@@ -40,22 +93,9 @@ body {
     margin-block: 0px;
     font-size: 3vh;
 }
-.games-count {
-    margin-block: 10px;
-    font-size: 3vh;
-}
+
 .vertical-border {
     border-inline: 2px solid white;
     height: 65%;
     margin-inline: 4px;
-}
-
-.id-fieldset {
-    width: min-content;
-    margin-block: 20px;
-    margin-top: 10px;
-}
-.link-no-deco {
-    text-decoration: none;
-    color: #a4b5ff; 
-}  
+} 
